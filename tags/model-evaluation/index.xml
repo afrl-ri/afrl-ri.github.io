@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Evaluation | BRAIN</title>
+    <link>/tags/model-evaluation/</link>
+      <atom:link href="/tags/model-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Model Evaluation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/brain.png</url>
+      <title>Model Evaluation</title>
+      <link>/tags/model-evaluation/</link>
+    </image>
+    
+    <item>
+      <title>Searching for High Confidence Errors</title>
+      <link>/project/unknownunknowns/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/project/unknownunknowns/</guid>
+      <description>&lt;p&gt;For a classification model, a high confidence error is a data point for which the classification model is highly confident in its prediction, but wrong.  These rare events can be missed by traditional evaluation strategies, such as random sampling, and may require specialized techniques to discover them.&lt;/p&gt;
+
+&lt;p&gt;This work provides a method to help users interactively search for high confidence classification errors.  It assumes the user has access to an image classification model that will predict a label with some confidence, and it also assumes access to an unlabeled evaluation dataset from the model&amp;rsquo;s application domain.  The goal is to then to guide users to high confidence classification errors at a rate that exceeds expectation given the confidence of the sampled predictions.&lt;/p&gt;
+
+&lt;p&gt;The strategy developed in this work relies on an adversarial machine learning attack to derive another measure of model confidence, or the probability of a correct prediction.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;gordy.png&#34; &gt;
+
+&lt;img src=&#34;gordy.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Fig. 1: Adversarial machine learning technique to estimate the distance to the decision boundary as another measure of confidence&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Simply stated, the strategy is to sample data points where the confidence provided by the model exceeds the measure estimated through the adversarial attack.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;method.png&#34; &gt;
+
+&lt;img src=&#34;method.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Fig. 2: Guide users to data points where model confidence exceeds adversarial distance&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;As a result, this method helps users find errors at rates 3-5x greater than expected.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;results.png&#34; &gt;
+
+&lt;img src=&#34;results.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Fig. 3: Adversarial distance method beats the current state of the art&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;&lt;small&gt;DISTRIBUTION A. Approved for public release distribution unlimited. Case #88ABW-2019-5299. October 29, 2019
+&lt;/small&gt;&lt;/font&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

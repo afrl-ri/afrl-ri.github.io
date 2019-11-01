@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | BRAIN</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/brain.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/walter/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/walter/</guid>
+      <description>&lt;p&gt;Walter Bennette&amp;rsquo;s research interests lie at the intersection of machine learning and operations research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/ashley/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/ashley/</guid>
+      <description>&lt;p&gt;Ashley Prater-Bennette&amp;rsquo;s research investigates tensor decompositions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/intro/</guid>
+      <description>&lt;p&gt;The Air Force Research Lab Information Directorate&amp;rsquo;s &lt;u&gt;B&lt;/u&gt;asic &lt;u&gt;R&lt;/u&gt;esearch for &lt;u&gt;A&lt;/u&gt;rtificial &lt;u&gt;In&lt;/u&gt;telligence (BRAIN) Team is a group of in-house researchers that develop novel machine learning algorithms to address unique Air Force challenges related to Artificial Intelligence.  Of particular interest to the BRAIN Team are topics related to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data Efficiency&lt;/li&gt;
+&lt;li&gt;Data Representations&lt;/li&gt;
+&lt;li&gt;Model Evaluation&lt;/li&gt;
+&lt;li&gt;Reinforcement Learning&lt;/li&gt;
+&lt;li&gt;Robustness&lt;/li&gt;
+&lt;li&gt;Self Supervision&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Look around this webpage to learn about the team&amp;rsquo;s past and ongoing projects, publications, team members, and publicly available datasets.  Please contact individual team members if you are interested in a particular project or dataset!&lt;/p&gt;
+
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;&lt;small&gt;DISTRIBUTION A. Approved for public release distribution unlimited. Case #88ABW-2019-5308. October 29, 2019
+&lt;/small&gt;&lt;/font&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
